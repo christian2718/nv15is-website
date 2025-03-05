@@ -1,0 +1,180 @@
+<!-- ABOUT PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Northville 15 Integrated School - Providing quality education and holistic learning for students.">
+    <meta name="keywords" content="Northville 15, Integrated School, Education, Quality Learning, Pampanga">
+    <meta name="author" content="Northville 15 Integrated School">
+    <meta name="robots" content="index, follow">
+    <title>Northville 15 Integrated School</title>
+
+    <!-- FontAwesome CDN for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/468963141_1331425167845021_6450696735100364912_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeG6rjMIjE-gL1MhkStBkpneEK1t9XeDiGUQrW31d4OIZbj4a2yG4kwpLupXrx9bHHK1cjDHOJIbPJ5MrvwsN963&_nc_ohc=SdTCApGpLS4Q7kNvgGHLcv0&_nc_oc=Adg2wKpN3FEgJci5G6j0P3Fjq7ezindNt7cxsqls-rByt3w32brDgaJZL1fZPrpLTOk&_nc_zt=23&_nc_ht=scontent.fcrk1-3.fna&_nc_gid=AB_npgVoGnATmTFYRXkxpmQ&oh=00_AYCc_b4Q_-dD1MoINAeI0HujKH1Jf6-fTrgq_Ul-MG6_4w&oe=67CDF9C2');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #333;
+        }
+        header {
+            background-color: rgba(46, 139, 87, 0.9); /* Green color with opacity */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        /* Adjust logo and text container */
+        header .logo-text {
+            display: flex;
+            align-items: center; /* Vertically center logo and text */
+        }
+        /* Logo in the header */
+        header img {
+            max-width: 120px; /* Adjust logo size */
+            height: auto;
+            margin-right: 15px; /* Space between logo and text */
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+            font-size: 14px
+        }
+        nav {
+    position: fixed;
+    top: 30px;
+    right: 60%;
+    transform: translateX(50%);
+    display: flex;
+    gap: 70px; /* Space between buttons */
+    justify-content: right; /* Center align buttons */
+    width: 100%;
+}
+        /* Style each navigation button box */
+        .nav-button-box {
+            background-color: rgba(34, 139, 34, 0.9); /* Darker green */
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Style each navigation button */
+        .nav-button {
+            background-color: rgba(34, 139, 34, 0.9); /* Darker green */
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-block;
+        }
+        .nav-button:hover {
+            background-color: rgba(46, 139, 87, 1); /* Lighter green on hover */
+            transform: translateY(-3px); /* Hover effect */
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            display: none;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(230, 245, 230, 0.9); /* Light green with opacity */
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: rgba(0, 100, 0, 0.9); /* Dark green with opacity */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer .social-media {
+            margin-top: 10px;
+        }
+        footer .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        footer .social-media a:hover {
+            color: lightgreen; /* Light green on hover */
+        }
+        /* Add a little responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                top: 10px;
+                right: 10px;
+                flex-direction: row; /* Keep it horizontal */
+                gap: 10px;
+            }
+            nav .nav-button-box {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+
+    <nav>
+        <div class="nav-button-box">
+            <a href="index.html" class="nav-button">Home</a>
+        </div>
+        <div class="nav-button-box">
+            <a href="services.html" class="nav-button">Services</a>
+        </div>
+        <div class="nav-button-box">
+            <a href="contact.html" class="nav-button">Contact</a>
+        </div>
+        <div class="nav-button-box">
+            <a href="Gallery.html" class="nav-button">Gallery</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Northville 15 Integrated School. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            var selectedSection = document.getElementById(sectionId);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+
+        // Default view to show the home section
+        window.onload = function() {
+            showSection('home');
+        };
+    </script>
+</body>
+</html> 
